@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yamba Lab</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_post">Post</string>
+    <string name="post_title">Post Message</string>
+    <string name="post_status">Status</string>
+    <string name="post_default_counter">140</string>
+    <string name="post_button_text">Post</string>
+    <string name="post_edit_text_hint">Enter your post message here.</string>
+    <string name="post_success">Post succeeded!</string>
+    <string name="post_failure">Post failed!</string>
+    <string name="post_progress_title">Sending Post&#8230;</string>
+    <string name="button_start_service">Start Service</string>
+    <string name="button_stop_service">Stop Service</string>    
+    <string name="button_start_intent_service">Start Intent Service</string>
+    <string name="button_stop_intent_service">Stop Intent Service</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="list_default_user">User</string>
+    <string name="list_default_message">Message</string>
+    <string name="list_default_timestamp">Timestamp</string>    
+    
+</resources>
