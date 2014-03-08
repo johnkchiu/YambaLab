@@ -58,7 +58,7 @@ public class YambaIntentService extends IntentService {
 			getContentResolver().bulkInsert(YambaContract.Timeline.URI, contentValuesList.toArray(new ContentValues[contentValuesList.size()]));
 			
 			// broadcast done message
-			sendBroadcast(new Intent(MainActivity.YAMBA_REFRESH));
+			sendBroadcast(new Intent(TimelineFragment.YAMBA_REFRESH));
 			
 		} catch (YambaClientException e) {
 			Log.d(TAG, "YambaClientException: " + e);
